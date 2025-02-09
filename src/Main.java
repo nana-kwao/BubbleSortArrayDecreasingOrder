@@ -23,8 +23,8 @@ public class Main {
         System.out.println(Arrays.toString(ages));
 
         
-        //ALternative to the above code is using Array.sort(ages, Collections.reverseOrder()) built-in method
-        // Integer[] newAges = {45,76,23,87,43,12,34,33,9};   //using Integer[] since Collections does not support int[] 
+        //Alternative to the above code is using Array.sort(ages, Collections.reverseOrder()) built-in method
+        // Integer[] newAges = {45,76,23,87,43,12,34,33,9};   using Integer[] since Collections does not support int[]
         // Arrays.sort(newAges, Collections.reverseOrder());
         // System.out.println(Arrays.toString(newAges));
     }
