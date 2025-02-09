@@ -1,11 +1,10 @@
 import java.util.Arrays;
-import java.util.Collections;
+// import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
         //get the array
         int[] ages = {45,76,23,87,43,12,34,33,9};
-        Integer[] newAges = {45,76,23,87,43,12,34,33,9};
 
         //ages.length
         int n = ages.length;
@@ -23,8 +22,10 @@ public class Main {
         //print sorted array
         System.out.println(Arrays.toString(ages));
 
-        //using .sort() built-in method
-        Arrays.sort(newAges, Collections.reverseOrder());
-        System.out.println(Arrays.toString(newAges));
+        
+        //ALternative to the above code is using Array.sort(ages, Collections.reverseOrder()) built-in method
+        // Integer[] newAges = {45,76,23,87,43,12,34,33,9};   //using Integer[] since Collections does not support int[] 
+        // Arrays.sort(newAges, Collections.reverseOrder());
+        // System.out.println(Arrays.toString(newAges));
     }
 }
